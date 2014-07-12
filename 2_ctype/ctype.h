@@ -1,6 +1,6 @@
-//ctype_mine.h
-#ifndef CTYPE_MINE
-#define CTYPE_MINE
+//ctype.h
+#ifndef CTYPE
+#define CTYPE
 
 #define _XA 0x200	//extra alphabetic
 #define _XS 0x100	//extra space

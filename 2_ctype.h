@@ -1,8 +1,7 @@
 ctype.h
-类型判定
+字符类型判定
 
-一，字符判定函数
-
+一，字符类型判定函数
 int isprint(int c);		终端可显示字符，即打印字符，包括' '
 int isspace(int c);		终端不显示字符，即空白字符，也包括' '，还有'\n' '\t'等
 int iscntrl(int c);		控制字符，有
@@ -17,10 +16,7 @@ int isupper(int c);		大写字母
 int islower(int c);		小写字母
 以上函数符合判断返回非0值，表示 true，否则返回0，表示 false
 
-二，字符转化函数
-
+二，字母大小写转化函数
 int tolower(int c);		转化为小写字母
 int toupper(int c);		转化为大写字母
 函数返回相应的转化后的大小写字母，若原本就是该形式则返回原字符
-
-

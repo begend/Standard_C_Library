@@ -1,8 +1,8 @@
 limits.h
 极值范围
 
-C/C++标准规定，以下的变量长度的最小范围
-在我的机器上int与long范围都是2^32
+C标准库规定的各个变量的极值范围
+但在实际机器上范围可能更大，比如在我的机器上int与long范围都是2^32
 
 signed char
 -127 to 127					: SCHAR_MIN to SCHAR_MAX//128 = 2^7
@@ -38,5 +38,3 @@ unsigned long (int)
 							: LLONG_MIN to LLONG_MAX//9223372036854775808 = 2^63		
 unsigned long long (int)
 0 to 18446744073709551615	: 0 to ULLONG_MAX		//18446744073709551616 = 2^64
-
-
