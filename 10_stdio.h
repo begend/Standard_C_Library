@@ -118,7 +118,7 @@ int getchar(void);
 int gets(char *s);
 等效于fgets(char *s, Inf, stdin);但是由于没有限制读入字符的数量，会被入侵
 int puts(const char *s);
-等效于fputs(const char *s, FILE *stream);可以使用
+等效于fputs(const char *s, stdout);可以使用
 int ungetc(int c, FILE *stream);
 把字符c退回到文件流stream中，下次重新读入c，成功返回退回字符，否则返回 EOF
 
